@@ -1,0 +1,11 @@
+.header {
+    height: 80px;
+  /*background-color: cornflowerblue;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 45%;
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+.portfolio_block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+@media (max-width: 360px) {
+    .portfolio_block {
+        justify-content: center;
+    }
+}

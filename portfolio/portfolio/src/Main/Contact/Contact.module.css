@@ -1,0 +1,57 @@
+.contact {
+    background-color: #f7f7f7;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form_control {
+    height: 31px;
+    margin-bottom: 20px;
+    padding: 9px 14px;
+    font-size: 14px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #d4d4d4;
+    border-radius: 0;
+}
+
+.contact_name,
+.contact_email {
+    width: 540px;
+}
+
+.contact_email {
+
+}
+
+.contact_subject,
+.contact_message {
+    width: 100%;
+}
+
+.content_button button {
+    padding: 10px 38px;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button_red {
+    color: white;
+    background-color: #dc3545;
+    border: none;
+}
+
+@media (max-width: 360px) {
+    .contact_name,
+    .contact_email,
+    .contact_subject,
+    .contact_message {
+        width: 260px;
+    }
+
+}

@@ -1,0 +1,18 @@
+.skill_item {
+    width: 295px;
+    height: 180px;
+    padding: 38px 24px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #8a8a8a;
+}
+
+.icon {
+    height: 60px;
+    width: 60px;
+    margin: 0 auto;
+    background-color: cadetblue;
+}
+@media (max-width: 360px) {
+
+}

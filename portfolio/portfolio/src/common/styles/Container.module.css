@@ -1,0 +1,19 @@
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 85px 30px;
+}
+
+h2 {
+    margin: 0 0 12px;
+    font-size: 40px;
+}
+
+@media (max-width: 360px) {
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 55px 30px;
+        text-align: center;
+    }
+}

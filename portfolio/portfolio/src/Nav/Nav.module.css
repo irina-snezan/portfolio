@@ -1,0 +1,31 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    font-size: 16px;
+    letter-spacing: 0.7px;
+    color: #E8E8E8F2;
+}
+
+.nav ul {
+    text-decoration: none;
+}
+
+.nav li {
+    padding: 7px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.nav_link_active {
+    color: #dc3545;
+}
+
+@media (max-width: 360px) {
+    .nav {
+        flex-direction: row;
+        margin: 15px auto;
+        padding-left: 20px;
+    }
+
+}

@@ -1,0 +1,14 @@
+.skills {
+    background-color: #f7f7f7;
+}
+.skills_block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+@media (max-width: 360px) {
+    .skills_block {
+        justify-content: center;
+    }
+}

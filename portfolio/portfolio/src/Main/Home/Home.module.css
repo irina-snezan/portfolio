@@ -1,0 +1,33 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #988d7e;
+}
+
+.home h1 {
+    font-size: 68px;
+}
+
+.home h1 span {
+    color: #dc3545;
+}
+
+.home p {
+    font-size: 32px;
+    color: #ffffff;
+}
+
+@media (max-width: 360px) {
+    .home {
+        min-height: 400px;
+    }
+
+    .home h1 {
+        font-size: 48px;
+    }
+
+}
