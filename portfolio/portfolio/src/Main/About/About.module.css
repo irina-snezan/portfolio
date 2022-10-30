@@ -56,7 +56,7 @@
     background-color: #a9a7a7;
 }
 
-@media (max-width: 360px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
     .about_img {
         width: 250px;
         height: 300px;

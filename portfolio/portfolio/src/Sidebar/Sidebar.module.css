@@ -30,7 +30,7 @@
     color: #8a8a8a;
 }
 
-@media (max-width: 360px) {
+@media screen and (min-width: 360px) and (max-width: 768px){
     .sidebar {
         position: relative;
         min-height: 25px;

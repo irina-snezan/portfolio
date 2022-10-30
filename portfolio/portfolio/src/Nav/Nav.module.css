@@ -21,7 +21,7 @@
     color: #dc3545;
 }
 
-@media (max-width: 360px) {
+@media screen and (min-width: 360px) and (max-width: 768px) {
     .nav {
         flex-direction: row;
         margin: 15px auto;

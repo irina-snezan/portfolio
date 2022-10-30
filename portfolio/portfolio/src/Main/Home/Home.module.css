@@ -21,7 +21,7 @@
     color: #ffffff;
 }
 
-@media (max-width: 360px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
     .home {
         min-height: 400px;
     }

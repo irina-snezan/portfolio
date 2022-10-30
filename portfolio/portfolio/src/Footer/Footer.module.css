@@ -53,10 +53,11 @@ footer a {
     margin-top: 40px;
 }
 
-@media (max-width: 360px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
 
     .footer_contact_info {
         flex-direction: column;
+        justify-content: center;
     }
 
     .line {
